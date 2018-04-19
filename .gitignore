@@ -1,0 +1,5 @@
+venv
+*.pyc
+.DS_Store
+secret.py
+__pycache__
