@@ -1,5 +1,6 @@
 import unittest
 import random
+import sqlite3
 from datetime import datetime
 from get_cards import *
 from get_game_records import *
@@ -87,6 +88,89 @@ class TestIt(unittest.TestCase):
         self.assertTrue(all([0 <= r[3] <= 100 for r in records_arena]))
         self.assertTrue(all([1 <= r[4] <= 2 for r in records_arena]))
         self.assertTrue(all([r[5] is 'Arena' for r in records_arena]))
+
+    def test_card_storage(self):
+        conn = sqlite3.connect('HeartStone.sqlite')
+        cur = conn.cursor()
+        card_minion = '''
+        SELECT * FROM CardDetail
+        WHERE Name = 'Cryomancer'
+        '''
+        cur.execute(card_minion)
+        response = cur.fetchone()
+        self.assertEqual(response[0], 40988)
+        self.assertEqual(response[2], 'MINION')
+        self.assertEqual(response[3], 'MAGE')
+        self.assertEqual(response[4], 'COMMON')
+        self.assertEqual(response[5], 'GANGS')
+        self.assertEqual(response[6], 5)
+        self.assertEqual(response[7], 5)
+        self.assertEqual(response[8], 5)
+
+        card_spell = '''
+        SELECT * FROM CardDetail
+        WHERE Name = 'Living Roots'
+        '''
+        cur.execute(card_spell)
+        response = cur.fetchone()
+        self.assertEqual(response[0], 2792)
+        self.assertEqual(response[2], 'SPELL')
+        self.assertEqual(response[6], 1)
+        self.assertEqual(response[7], '')
+        self.assertEqual(response[8], '')
+
+        card_weapon = '''
+        SELECT * FROM CardDetail
+        WHERE Name = 'Twig of the World Tree'
+        '''
+        cur.execute(card_weapon)
+        response = cur.fetchone()
+        self.assertEqual(response[0], 46107)
+        self.assertEqual(response[2], 'WEAPON')
+        self.assertEqual(response[6], 4)
+        self.assertEqual(response[7], 1)
+        self.assertEqual(response[8], '')
+
+        card_play = '''
+        SELECT * FROM CardsPlay
+        WHERE CardId = '41252'
+        '''
+        cur.execute(card_play)
+        response = cur.fetchall()
+        self.assertTrue(all([r[1] > 0 for r in response]))
+        self.assertTrue(all([r[2] > 0 for r in response]))
+        self.assertTrue(all([0 < r[3] < 100 for r in response]))
+        self.assertTrue(all([1 <= r[4] <= 2 for r in response]))
+        self.assertTrue(all([r[5] in ['Standard', 'Wild', 'Arena'] for r in response]))
+
+    def test_deck_storage(self):
+        conn = sqlite3.connect('HeartStone.sqlite')
+        cur = conn.cursor()
+        deck1 = '''
+        SELECT * FROM Decks
+        JOIN DeckDetail ON Decks.NameId = DeckDetail.DeckId
+        WHERE UId = 'D5dZ5PwKW39digsf23VDs' AND Mode = 'Standard'
+        '''
+        cur.execute(deck1)
+        response = cur.fetchall()
+        self.assertTrue(all([r[1] == 216 for r in response]))
+        self.assertTrue(all([r[2] == 'PALADIN' for r in response]))
+        self.assertEqual(len(set([r[7] for r in response])), 1)
+        self.assertEqual(len(set([r[9] for r in response])), len([r[9] for r in response]))
+        self.assertTrue(all([r[-1] == 'Odd Paladin' for r in response]))
+
+        deck2 = '''
+        SELECT * FROM Decks
+        JOIN DeckDetail ON Decks.NameId = DeckDetail.DeckId
+        WHERE UId = 'VEFq4jLsJMnyY3MIQb1y3c' AND Mode = 'Wild'
+        '''
+        cur.execute(deck2)
+        response = cur.fetchall()
+        self.assertTrue(all([r[1] == 129 for r in response]))
+        self.assertTrue(all([r[2] == 'PRIEST' for r in response]))
+        self.assertEqual(len(set([r[7] for r in response])), 1)
+        self.assertEqual(len(set([r[9] for r in response])), len([r[9] for r in response]))
+        self.assertTrue(all([r[-1] == 'Big Priest' for r in response]))
 
 
     def test_dash_get_deck_detail(self):

@@ -44,7 +44,7 @@ SELECT Name, Class, Popularity AS [Popularity(%)], UseFrequency AS Frequency,
 CardWinRate AS [Win(%)], Rarity, [Set], Copies, Mode, CardsPlay.CardId AS UId FROM CardsPlay
 JOIN CardDetail ON CardsPlay.CardId = CardDetail.CardId
 WHERE CollectTime = (
-SELECT CollectTime FROM CardsPlay ORDER BY CollectTime DESC LIMIT 1
+    SELECT CollectTime FROM CardsPlay ORDER BY CollectTime DESC LIMIT 1
 )
 '''
 df_card = pd.read_sql_query(query_card, conn)
