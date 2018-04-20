@@ -243,7 +243,7 @@ def update_figure_totalGame(rows, selected_row_indices):
                 mode = 'lines+markers',
                 name = name
             )
-            data.append(trace)
+            data.insert(0, trace)
         fig = dict(data=data, layout=layout)
         conn.close()
         return fig
@@ -276,7 +276,7 @@ def update_figure_WinRate(rows, selected_row_indices):
                 mode = 'lines+markers',
                 name = name
             )
-            data.append(trace)
+            data.insert(0, trace)
         fig = dict(data=data, layout=layout)
         conn.close()
         return fig
@@ -309,7 +309,7 @@ def update_figure_AverageGameTime(rows, selected_row_indices):
                 mode = 'lines+markers',
                 name = name
             )
-            data.append(trace)
+            data.insert(0, trace)
         fig = dict(data=data, layout=layout)
         conn.close()
         return fig
@@ -412,7 +412,7 @@ def update_figure_Popularity(rows, selected_row_indices):
                 mode = 'lines+markers',
                 name = name
             )
-            data.append(trace)
+            data.insert(0, trace)
         fig = dict(data=data, layout=layout)
         conn.close()
         return fig
@@ -445,7 +445,7 @@ def update_figure_Popularity(rows, selected_row_indices):
                 mode = 'lines+markers',
                 name = name
             )
-            data.append(trace)
+            data.insert(0, trace)
         fig = dict(data=data, layout=layout)
         conn.close()
         return fig
@@ -478,7 +478,7 @@ def update_figure_Popularity(rows, selected_row_indices):
                 mode = 'lines+markers',
                 name = name
             )
-            data.append(trace)
+            data.insert(0, trace)
         fig = dict(data=data, layout=layout)
         conn.close()
         return fig
@@ -511,7 +511,7 @@ def update_figure_Popularity(rows, selected_row_indices):
                 mode = 'lines+markers',
                 name = name
             )
-            data.append(trace)
+            data.insert(0, trace)
         fig = dict(data=data, layout=layout)
         conn.close()
         return fig

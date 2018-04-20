@@ -7,14 +7,9 @@ time = datetime.now().strftime("%m-%d %H:%M")
 def get_decksDetail():
 
     records = []
-    try:
-        with open('deck_cache.json') as f:
-            response = json.load(f)
-    except:
-        url = 'https://hsreplay.net/api/v1/archetypes/'
-        response = requests.get(url).json()
-        with open('deck_cache.json', 'w') as js:
-            json.dump(response, js, indent = "\t")
+
+    url = 'https://hsreplay.net/api/v1/archetypes/'
+    response = requests.get(url).json()
 
     for deck in response:
         deck_id = deck['id']
