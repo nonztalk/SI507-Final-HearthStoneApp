@@ -10,8 +10,8 @@ import request
 import json
 response = request.get(file_url).json()
 ```
-   For deck information, you need to view at this [page](https://hsreplay.net/decks/)   
-   For card information, you need to view at this [page](https://hsreplay.net/cards/)  
+For deck information, you need to view at this [page](https://hsreplay.net/decks/)   
+For card information, you need to view at this [page](https://hsreplay.net/cards/)  
 
 [HearthstoneAPI](http://hearthstoneapi.com/#start)   
 This api have quite clear document, you can find their tutorial [here](https://market.mashape.com/omgvamp/hearthstone)  
