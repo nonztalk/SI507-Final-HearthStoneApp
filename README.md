@@ -28,7 +28,7 @@ response = unirest.get("https://omgvamp-hearthstone-v1.p.mashape.com/cards/searc
 For those who fail to install unirest, just replace `unirest.get` with `requests.get`
 
 ### To run this app
-Since this app has been uploaded on Heroku, you can run it directly on [link](si-507-final-hearthstone-app.herokuapp.com) (This could be slow)  
+Since this app has been uploaded on Heroku, you can run it directly on [link](https://si-507-final-hearthstone-app.herokuapp.com/) (This could be slow)  
 Or you should clone this repository, at least `HeartStone.sqlite` and `DashApp.py`
 to your PC, and run `python3 DashApp.py`  
 You may need to download the packages listed in `requirements.txt`  
