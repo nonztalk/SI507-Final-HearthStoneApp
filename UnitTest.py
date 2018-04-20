@@ -8,6 +8,7 @@ from DashApp import get_deck_detail, cards_in_decks_detail, cards_images
 
 class TestIt(unittest.TestCase):
 
+    # test get data
     def test_get_cards(self):
         card_records = get_cards()
 
@@ -89,6 +90,7 @@ class TestIt(unittest.TestCase):
         self.assertTrue(all([1 <= r[4] <= 2 for r in records_arena]))
         self.assertTrue(all([r[5] is 'Arena' for r in records_arena]))
 
+    # test storage
     def test_card_storage(self):
         conn = sqlite3.connect('HeartStone.sqlite')
         cur = conn.cursor()
@@ -172,7 +174,7 @@ class TestIt(unittest.TestCase):
         self.assertEqual(len(set([r[9] for r in response])), len([r[9] for r in response]))
         self.assertTrue(all([r[-1] == 'Big Priest' for r in response]))
 
-
+    # test the functions under DashApp
     def test_dash_get_deck_detail(self):
         sample_list = '[[40523,2],[1029,2],[40397,2],[40596,1],[43417,1],[40797,2],[95,2],[39841,1],[64,2],[42759,2],[43288,2],[43294,2],[1124,2],[45828,2],[42656,2],[38318,1],[40372,2]]'
         res = get_deck_detail(sample_list).split("; ")
