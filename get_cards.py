@@ -2,6 +2,43 @@ import requests
 import json
 import secret
 
+class Card:
+
+    def __init__(self, Id = '', Name = '', Type = '', Class = '', Rarity = '',
+    Set = '', Cost = '', Attack = '', Health = ''):
+        self.Id = Id
+        self.Name = Name
+        self.Type = Type
+        self.Class = Class
+        self.Rarity = Rarity
+        self.Set = Set
+        self.Cost = Cost
+        self.Attack = Attack
+        self.Health = Health
+
+    def setId(self, newId):
+        self.Id = newId
+    def setName(self, newName):
+        self.Name = newName
+    def setType(self, newType):
+        self.Type = newType
+    def setClass(self, newClass):
+        self.Class = newClass
+    def setRarity(self, newRarity):
+        self.Rarity = newRarity
+    def setSet(self, newSet):
+        self.Set = newSet
+    def setCost(self, newCost):
+        self.Cost = newCost
+    def setAttack(self, newAttack):
+        self.Attack = newAttack
+    def setHealth(self, newHealth):
+        self.Health = newHealth
+
+    def getAttributes(self):
+        return [self.Id, self.Name, self.Type, self.Class, self.Rarity,
+        self.Set, self.Cost, self.Attack, self.Health]
+
 
 def get_cards():
 
@@ -16,28 +53,29 @@ def get_cards():
 
     cards_records = []
     for card in response:
-        card_id = card['dbfId']
-        card_name = card['name']
-        card_type = card['type']
-        card_class = card['cardClass']
-        card_rarity = card['rarity']
+        aCard = Card()
+        aCard.setId(card['dbfId'])
+        aCard.setName(card['name'])
+        aCard.setType(card['type'])
+        aCard.setClass(card['cardClass'])
+        aCard.setRarity(card['rarity'])
         try:
-            card_set = card['set']
+            aCard.setSet(card['set'])
         except:
-            card_set = ''
+            pass
         try:
-            card_cost = card['cost']
+            aCard.setCost(card['cost'])
         except:
-            card_cost = ''
+            pass
         try:
-            card_attack = card['attack']
+            aCard.setAttack(card['attack'])
         except:
-            card_attack = ''
+            pass
         try:
-            card_health = card['health']
+            card.setHealth(card['health'])
         except:
-            card_health = ''
-        cards_records.append([card_id, card_name, card_type, card_class, card_rarity, card_set, card_cost, card_attack, card_health])
+            pass
+        cards_records.append(aCard.getAttributes())
 
     return cards_records
 
