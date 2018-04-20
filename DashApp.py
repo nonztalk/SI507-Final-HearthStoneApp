@@ -389,7 +389,7 @@ def update_selected_row_indices_cards(clickData, selected_row_indices):
     [Input('CardsTable', 'rows'),
      Input('CardsTable', 'selected_row_indices')])
 def update_figure_Popularity(rows, selected_row_indices):
-    layout = dict(title = 'Popularity', xaxis = dict(title = 'Date Time'), yaxis = dict(title = '%% deck use this card'))
+    layout = dict(title = 'Popularity', xaxis = dict(title = 'Date Time'), yaxis = dict(title = '% deck use this card'))
     data = []
     if selected_row_indices is []:
         fig = dict(data=data, layout=layout)
