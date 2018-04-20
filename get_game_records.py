@@ -8,7 +8,8 @@ def get_decksDetail():
 
     records = []
     try:
-        response = json.load(open('deck_cache.json'))
+        with open('deck_cache.json') as f:
+            response = json.load(f)
     except:
         url = 'https://hsreplay.net/api/v1/archetypes/'
         response = requests.get(url).json()

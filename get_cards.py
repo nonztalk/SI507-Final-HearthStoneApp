@@ -6,7 +6,8 @@ import secret
 def get_cards():
 
     try:
-        response = json.load(open('cards_cache.json'))
+        with open('cards_cache.json') as f:
+            response = json.load(f)
     except:
         cards_url = 'https://api.hearthstonejson.com/v1/latest/enUS/cards.collectible.json'
         response = requests.get(cards_url).json()
@@ -43,10 +44,12 @@ def get_cards():
 def get_cards_image():
 
     records = []
-    cards_collectable = json.load(open('cards_cache.json'))
+    with open('cards_cache.json') as f:
+        cards_collectable = json.load(f)
 
     try:
-        card_img_cache = json.load(open('card_img_cache.json'))
+        with open('card_img_cache.json') as f:
+            card_img_cache = json.load(f)
     except:
         card_img_cache = {}
 

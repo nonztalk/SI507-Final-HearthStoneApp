@@ -44,6 +44,9 @@
 		"flavor": "And he can't get up.",
 		"health": 2,
 		"id": "AT_003",
+		"mechanics": [
+			"HEROPOWER_DAMAGE"
+		],
 		"name": "Fallen Hero",
 		"rarity": "RARE",
 		"set": "TGT",
@@ -202,6 +205,9 @@
 		"flavor": "She really likes seeing people get better.  That's why she hurts them in the first place.",
 		"health": 5,
 		"id": "AT_011",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Holy Champion",
 		"rarity": "COMMON",
 		"set": "TGT",
@@ -255,6 +261,9 @@
 		"flavor": "Hopes to be promoted to \"Shadowfriend\" someday.",
 		"health": 3,
 		"id": "AT_014",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Shadowfiend",
 		"rarity": "EPIC",
 		"set": "TGT",
@@ -383,6 +392,9 @@
 		"flavor": "\"No, no, no. I asked for a tiny JESTER of evil.\"",
 		"health": 2,
 		"id": "AT_021",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Tiny Knight of Evil",
 		"race": "DEMON",
 		"rarity": "RARE",
@@ -473,6 +485,9 @@
 		"flavor": "After playing against 5 Annoy-O-Trons, any normal guard will become a Wrathguard.",
 		"health": 3,
 		"id": "AT_026",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Wrathguard",
 		"race": "DEMON",
 		"rarity": "COMMON",
@@ -526,6 +541,9 @@
 		"flavor": "The best part of buccaneering is the pants.",
 		"health": 1,
 		"id": "AT_029",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Buccaneer",
 		"race": "PIRATE",
 		"rarity": "COMMON",
@@ -566,6 +584,9 @@
 		"flavor": "He has a giant collection of purses now.  One for every outfit!",
 		"health": 2,
 		"id": "AT_031",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Cutpurse",
 		"rarity": "RARE",
 		"set": "TGT",
@@ -1165,6 +1186,9 @@
 		"flavor": "With the help of his trusty sidekick Dreadscale, the giant jormungar Acidmaw is ready to face any knight!",
 		"health": 2,
 		"id": "AT_063",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Acidmaw",
 		"race": "BEAST",
 		"rarity": "LEGENDARY",
@@ -1183,6 +1207,9 @@
 		"flavor": "Let's be clear about this:  ACIDMAW is the sidekick.",
 		"health": 2,
 		"id": "AT_063t",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Dreadscale",
 		"race": "BEAST",
 		"rarity": "LEGENDARY",
@@ -1672,7 +1699,8 @@
 		"health": 5,
 		"id": "AT_088",
 		"mechanics": [
-			"FORGETFUL"
+			"FORGETFUL",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Mogor's Champion",
 		"rarity": "RARE",
@@ -2305,6 +2333,9 @@
 		"flavor": "The crowd ALWAYS yells lethal.",
 		"health": 4,
 		"id": "AT_121",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Crowd Favorite",
 		"rarity": "EPIC",
 		"referencedTags": [
@@ -2371,6 +2402,9 @@
 		"flavor": "Bolf keeps coming in 2nd at the Grand Tournament.  It might be his year this year, if Lebron doesn't enter.",
 		"health": 9,
 		"id": "AT_124",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Bolf Ramshield",
 		"rarity": "LEGENDARY",
 		"set": "TGT",
@@ -2448,6 +2482,9 @@
 		"flavor": "LOVES being called \"the wonder twins\".",
 		"health": 4,
 		"id": "AT_129",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Fjola Lightbane",
 		"rarity": "LEGENDARY",
 		"referencedTags": [
@@ -2487,6 +2524,9 @@
 		"flavor": "HATES being called \"the wonder twins\".",
 		"health": 4,
 		"id": "AT_131",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Eydis Darkbane",
 		"rarity": "LEGENDARY",
 		"set": "TGT",
@@ -2560,6 +2600,9 @@
 		"howToEarn": "Unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
 		"id": "BRM_002",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Flamewaker",
 		"rarity": "RARE",
 		"set": "BRM",
@@ -2617,6 +2660,9 @@
 		"howToEarn": "Unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
 		"id": "BRM_005",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Demonwrath",
 		"rarity": "RARE",
 		"set": "BRM",
@@ -2635,6 +2681,9 @@
 		"howToEarn": "Unlocked in Molten Core, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Molten Core, in the Blackrock Mountain adventure.",
 		"id": "BRM_006",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Imp Gang Boss",
 		"race": "DEMON",
 		"rarity": "COMMON",
@@ -2781,6 +2830,9 @@
 		"howToEarn": "Unlocked in Blackrock Depths, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Blackrock Depths, in the Blackrock Mountain adventure.",
 		"id": "BRM_013",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Quick Shot",
 		"playRequirements": {
 			"REQ_TARGET_TO_PLAY": 0
@@ -2840,6 +2892,9 @@
 		"howToEarn": "Unlocked in Molten Core, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Molten Core, in the Blackrock Mountain adventure.",
 		"id": "BRM_016",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Axe Flinger",
 		"rarity": "COMMON",
 		"set": "BRM",
@@ -2900,6 +2955,9 @@
 		"howToEarn": "Unlocked in Blackrock Depths, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Blackrock Depths, in the Blackrock Mountain adventure.",
 		"id": "BRM_019",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Grim Patron",
 		"rarity": "RARE",
 		"set": "BRM",
@@ -2918,6 +2976,9 @@
 		"howToEarn": "Unlocked in Hidden Laboratory, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Hidden Laboratory, in the Blackrock Mountain adventure.",
 		"id": "BRM_020",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Dragonkin Sorcerer",
 		"race": "DRAGON",
 		"rarity": "COMMON",
@@ -2937,6 +2998,9 @@
 		"howToEarn": "Unlocked in Blackrock Spire, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Blackrock Spire, in the Blackrock Mountain adventure.",
 		"id": "BRM_022",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Dragon Egg",
 		"rarity": "RARE",
 		"set": "BRM",
@@ -3041,6 +3105,9 @@
 		"howToEarn": "Unlocked in Blackrock Depths, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Blackrock Depths, in the Blackrock Mountain adventure.",
 		"id": "BRM_028",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Emperor Thaurissan",
 		"rarity": "LEGENDARY",
 		"set": "BRM",
@@ -3111,6 +3178,9 @@
 		"howToEarn": "Unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
 		"howToEarnGolden": "Crafting unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
 		"id": "BRM_031",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Chromaggus",
 		"race": "DRAGON",
 		"rarity": "LEGENDARY",
@@ -3215,6 +3285,9 @@
 		"flavor": "Don't blame the bot for his crimes...  Blame whoever keeps winding him up!",
 		"health": 5,
 		"id": "CFM_025",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Wind-up Burglebot",
 		"race": "MECHANICAL",
 		"rarity": "EPIC",
@@ -3270,6 +3343,9 @@
 		"flavor": "It has double the Attack.  \"Go on.\"  And double the Health.  \"Yes??\"  And its trigger has twice the effect.  \"WHAT???\"  And it costs\u2026  Five times more.",
 		"health": 6,
 		"id": "CFM_060",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Red Mana Wyrm",
 		"rarity": "COMMON",
 		"set": "GANGS",
@@ -3651,7 +3727,8 @@
 		"health": 1,
 		"id": "CFM_321",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"GRIMY_GOONS"
 		],
 		"multiClassGroup": "GRIMY_GOONS",
 		"name": "Grimestreet Informant",
@@ -3731,6 +3808,10 @@
 		"flavor": "When confronted with accusations of performance-enhancing bananas, Knuckles replied, \"I get my fruit from trees I knock down with my bare hands like everyone else.\"",
 		"health": 7,
 		"id": "CFM_333",
+		"mechanics": [
+			"FINISH_ATTACK_SPELL_ON_DAMAGE",
+			"TRIGGER_VISUAL"
+		],
 		"name": "Knuckles",
 		"race": "BEAST",
 		"rarity": "LEGENDARY",
@@ -3805,6 +3886,9 @@
 		"durability": 4,
 		"flavor": "A great improvement over the guppy launcher.",
 		"id": "CFM_337",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Piranha Launcher",
 		"rarity": "EPIC",
 		"set": "GANGS",
@@ -3906,7 +3990,8 @@
 		"health": 4,
 		"id": "CFM_344",
 		"mechanics": [
-			"STEALTH"
+			"STEALTH",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Finja, the Flying Star",
 		"race": "MURLOC",
@@ -4008,6 +4093,9 @@
 		"flavor": "Gadgetzan, where even the pet rocks have pet rocks.",
 		"health": 3,
 		"id": "CFM_606",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mana Geode",
 		"race": "ELEMENTAL",
 		"rarity": "EPIC",
@@ -4043,6 +4131,9 @@
 		"flavor": "\"Doc says the persistent burning sensation in my soul is probably just an ulcer.\"",
 		"health": 7,
 		"id": "CFM_609",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Fel Orc Soulfiend",
 		"rarity": "EPIC",
 		"set": "GANGS",
@@ -4161,7 +4252,8 @@
 		"health": 3,
 		"id": "CFM_619",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"KABAL"
 		],
 		"multiClassGroup": "KABAL",
 		"name": "Kabal Chemist",
@@ -4209,7 +4301,8 @@
 		"health": 3,
 		"id": "CFM_621",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"KABAL"
 		],
 		"multiClassGroup": "KABAL",
 		"name": "Kazakus",
@@ -4281,6 +4374,9 @@
 		"durability": 3,
 		"flavor": "For the goon that wants to make a fashion statement.",
 		"id": "CFM_631",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Brass Knuckles",
 		"rarity": "EPIC",
 		"set": "GANGS",
@@ -4298,7 +4394,8 @@
 		"health": 5,
 		"id": "CFM_634",
 		"mechanics": [
-			"STEALTH"
+			"STEALTH",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Lotus Assassin",
 		"rarity": "EPIC",
@@ -4353,6 +4450,9 @@
 		"flavor": "\"Sir, you don't have a permit to park your mount here.\"",
 		"health": 4,
 		"id": "CFM_639",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Grimestreet Enforcer",
 		"rarity": "RARE",
 		"set": "GANGS",
@@ -4457,7 +4557,8 @@
 		"health": 2,
 		"id": "CFM_649",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"KABAL"
 		],
 		"multiClassGroup": "KABAL",
 		"name": "Kabal Courier",
@@ -4557,6 +4658,9 @@
 		"flavor": "\"What'll it be?  A Jade Brew?  A Grimy Goose?  A Kabal Manatini?\"",
 		"health": 3,
 		"id": "CFM_654",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Friendly Bartender",
 		"rarity": "COMMON",
 		"set": "GANGS",
@@ -4642,6 +4746,9 @@
 		"flavor": "\"WHY ARE YOU IN THE BACK ROOM?  WHO IS WATCHING THE FRONT?!\"",
 		"health": 4,
 		"id": "CFM_658",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Backroom Bouncer",
 		"rarity": "RARE",
 		"set": "GANGS",
@@ -4734,6 +4841,9 @@
 		"flavor": "She ships illicit mana crystals around the world in packages marked: FUNNEL CAKE.",
 		"health": 6,
 		"id": "CFM_663",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Kabal Trafficker",
 		"rarity": "EPIC",
 		"set": "GANGS",
@@ -4829,6 +4939,9 @@
 		"flavor": "He only burgles to pay the bills.  He is really just a bully at heart.",
 		"health": 6,
 		"id": "CFM_669",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Burgly Bully",
 		"rarity": "EPIC",
 		"set": "GANGS",
@@ -4846,6 +4959,9 @@
 		"flavor": "This flavor text was randomly generated.  If it happens to form words and make sense, that is purely by chance.",
 		"health": 4,
 		"id": "CFM_670",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mayor Noggenfogger",
 		"rarity": "LEGENDARY",
 		"set": "GANGS",
@@ -4917,7 +5033,8 @@
 		"health": 6,
 		"id": "CFM_685",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"GRIMY_GOONS"
 		],
 		"multiClassGroup": "GRIMY_GOONS",
 		"name": "Don Han'Cho",
@@ -5098,6 +5215,9 @@
 		"flavor": "If you think her Illidan and Sylvanas cosplay is great, wait till you see her Reno Jackson!",
 		"health": 5,
 		"id": "CFM_697",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Lotus Illusionist",
 		"rarity": "EPIC",
 		"set": "GANGS",
@@ -5184,7 +5304,8 @@
 		"id": "CFM_715",
 		"mechanics": [
 			"BATTLECRY",
-			"JADE_GOLEM"
+			"JADE_GOLEM",
+			"JADE_LOTUS"
 		],
 		"multiClassGroup": "JADE_LOTUS",
 		"name": "Jade Spirit",
@@ -5320,6 +5441,9 @@
 		"flavor": "\"You look like a Gadgetgun 3000-Mark IV man, am I right?\"",
 		"health": 3,
 		"id": "CFM_754",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Grimy Gadgeteer",
 		"rarity": "COMMON",
 		"set": "GANGS",
@@ -5356,7 +5480,8 @@
 		"health": 7,
 		"id": "CFM_756",
 		"mechanics": [
-			"TAUNT"
+			"TAUNT",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Alley Armorsmith",
 		"rarity": "RARE",
@@ -5414,7 +5539,8 @@
 		"health": 3,
 		"id": "CFM_781",
 		"mechanics": [
-			"STEALTH"
+			"STEALTH",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Shaku, the Collector",
 		"rarity": "LEGENDARY",
@@ -5491,6 +5617,9 @@
 		"flavor": "Gadgetzan has always run an under-the-table auction house, and business has been PRETTY good for Beardo since the population explosion.  And since the explosion that destroyed the competing auction houses in the city.",
 		"health": 4,
 		"id": "CFM_807",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Auctionmaster Beardo",
 		"rarity": "LEGENDARY",
 		"set": "GANGS",
@@ -5508,6 +5637,9 @@
 		"flavor": "Infamous in the seedy underground card rooms of Gadgetzan, he got his nickname winning the coveted Shark Plushie in the city's first Hearthstone tournament.",
 		"health": 4,
 		"id": "CFM_808",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Genzo, the Shark",
 		"rarity": "LEGENDARY",
 		"set": "GANGS",
@@ -5630,6 +5762,9 @@
 		"flavor": "She's working on a story!  While skydiving!",
 		"health": 3,
 		"id": "CFM_851",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Daring Reporter",
 		"rarity": "COMMON",
 		"set": "GANGS",
@@ -5652,7 +5787,8 @@
 		"health": 3,
 		"id": "CFM_852",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"JADE_LOTUS"
 		],
 		"multiClassGroup": "JADE_LOTUS",
 		"name": "Lotus Agents",
@@ -5680,7 +5816,8 @@
 		"health": 4,
 		"id": "CFM_853",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"GRIMY_GOONS"
 		],
 		"multiClassGroup": "GRIMY_GOONS",
 		"name": "Grimestreet Smuggler",
@@ -5747,6 +5884,9 @@
 		"flavor": "Get the ingredients wrong on ONE healing potion and they take your license. What a world!",
 		"health": 5,
 		"id": "CFM_900",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Unlicensed Apothecary",
 		"race": "DEMON",
 		"rarity": "EPIC",
@@ -5774,7 +5914,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"JADE_GOLEM"
+			"JADE_GOLEM",
+			"JADE_LOTUS"
 		],
 		"multiClassGroup": "JADE_LOTUS",
 		"name": "Aya Blackpaw",
@@ -6504,7 +6645,8 @@
 		"health": 1,
 		"id": "CS2_059",
 		"mechanics": [
-			"STEALTH"
+			"STEALTH",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Blood Imp",
 		"race": "DEMON",
@@ -6908,6 +7050,9 @@
 		"howToEarn": "Unlocked at Level 2.",
 		"howToEarnGolden": "Unlocked at Level 40.",
 		"id": "CS2_097",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Truesilver Champion",
 		"rarity": "FREE",
 		"set": "CORE",
@@ -7941,6 +8086,9 @@
 		"dbfId": 1064,
 		"flavor": "\"Look, it's not just about waving daggers around really fast.  It's a lot more complicated than that.\" - Shan, Rogue Trainer",
 		"id": "CS2_233",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Blade Flurry",
 		"playRequirements": {
 			"REQ_WEAPON_EQUIPPED": 0
@@ -7983,6 +8131,9 @@
 		"howToEarn": "Unlocked at Level 1.",
 		"howToEarnGolden": "Unlocked at Level 40.",
 		"id": "CS2_235",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Northshire Cleric",
 		"rarity": "FREE",
 		"set": "CORE",
@@ -8021,6 +8172,9 @@
 		"howToEarn": "Unlocked at Level 4.",
 		"howToEarnGolden": "Unlocked at Level 47.",
 		"id": "CS2_237",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Starving Buzzard",
 		"race": "BEAST",
 		"rarity": "FREE",
@@ -8224,6 +8378,9 @@
 		"flavor": "She\u2019s smaller than her sisters Mediumwarden and Heavywarden.",
 		"health": 2,
 		"id": "EX1_001",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Lightwarden",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -8270,6 +8427,9 @@
 		"flavor": "She can't wait to learn Power Word: Fortitude Rank 2.",
 		"health": 1,
 		"id": "EX1_004",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Young Priestess",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -8311,6 +8471,9 @@
 		"flavor": "WARNING.  WARNING.  WARNING.",
 		"health": 3,
 		"id": "EX1_006",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Alarm-o-Bot",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
@@ -8328,6 +8491,9 @@
 		"flavor": "He trained when he was younger to be an acolyte of joy, but things didn\u2019t work out like he thought they would.",
 		"health": 3,
 		"id": "EX1_007",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Acolyte of Pain",
 		"rarity": "COMMON",
 		"set": "EXPERT1",
@@ -8743,6 +8909,9 @@
 		"flavor": "\"Does anyone have some extra Boar Pelts?\"",
 		"health": 2,
 		"id": "EX1_044",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Questing Adventurer",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -8880,6 +9049,9 @@
 		"flavor": "She\u2019s trying to kick the habit, but still takes some mana whenever she has a stressful day.",
 		"health": 3,
 		"id": "EX1_055",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mana Addict",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -9055,6 +9227,9 @@
 		"flavor": "She promises not to tell anyone about that thing you did last night with that one person.",
 		"health": 2,
 		"id": "EX1_080",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Secretkeeper",
 		"rarity": "RARE",
 		"referencedTags": [
@@ -9228,6 +9403,9 @@
 		"flavor": "He used to run the black market auction house, but there was just too much violence and he had to move.",
 		"health": 4,
 		"id": "EX1_095",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Gadgetzan Auctioneer",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -9284,6 +9462,9 @@
 		"flavor": "Lorewalker Cho archives and shares tales from the land of Pandaria, but his favorite story is the one where Joey and Phoebe go on a road trip.",
 		"health": 4,
 		"id": "EX1_100",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Lorewalker Cho",
 		"rarity": "LEGENDARY",
 		"set": "EXPERT1",
@@ -9300,6 +9481,9 @@
 		"flavor": "Laying siege isn't fun for anyone.  It's not even all that effective, now that everyone has a flying mount.",
 		"health": 4,
 		"id": "EX1_102",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Demolisher",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
@@ -10092,6 +10276,9 @@
 		"flavor": "Baron Geddon was Ragnaros's foremost lieutenant, until he got FIRED.",
 		"health": 5,
 		"id": "EX1_249",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Baron Geddon",
 		"race": "ELEMENTAL",
 		"rarity": "LEGENDARY",
@@ -10152,6 +10339,9 @@
 		"flavor": "Unlike bound elementals, Unbound ones really enjoy a night on the town.",
 		"health": 4,
 		"id": "EX1_258",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Unbound Elemental",
 		"race": "ELEMENTAL",
 		"rarity": "COMMON",
@@ -10190,6 +10380,9 @@
 		"flavor": "The ethereals are wrapped in cloth to give form to their non-corporeal bodies. Also because it's nice and soft.",
 		"health": 3,
 		"id": "EX1_274",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Ethereal Arcanist",
 		"rarity": "RARE",
 		"referencedTags": [
@@ -10407,7 +10600,8 @@
 		"health": 8,
 		"id": "EX1_298",
 		"mechanics": [
-			"CANT_ATTACK"
+			"CANT_ATTACK",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Ragnaros the Firelord",
 		"race": "ELEMENTAL",
@@ -10465,6 +10659,9 @@
 		"dbfId": 147,
 		"flavor": "Start with a powerful minion and stir in Shadowflame and you have a good time!",
 		"id": "EX1_303",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Shadowflame",
 		"playRequirements": {
 			"REQ_FRIENDLY_TARGET": 0,
@@ -10803,6 +11000,9 @@
 		"flavor": "It isn't clear if people ignore the Lightwell, or if it is just invisible.",
 		"health": 5,
 		"id": "EX1_341",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Lightwell",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -10967,6 +11167,9 @@
 		"dbfId": 435,
 		"flavor": "C'mon Molten Giant!!",
 		"id": "EX1_365",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Holy Wrath",
 		"playRequirements": {
 			"REQ_TARGET_TO_PLAY": 0
@@ -10986,6 +11189,9 @@
 		"durability": 5,
 		"flavor": "I dub you Sir Loin of Beef!",
 		"id": "EX1_366",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Sword of Justice",
 		"rarity": "EPIC",
 		"set": "EXPERT1",
@@ -11219,6 +11425,9 @@
 		"health": 7,
 		"howToEarnGolden": "Unlocked at Warlock Level 57.",
 		"id": "EX1_399",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Gurubashi Berserker",
 		"rarity": "FREE",
 		"set": "CORE",
@@ -11251,6 +11460,9 @@
 		"flavor": "She accepts guild funds for repairs!",
 		"health": 4,
 		"id": "EX1_402",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Armorsmith",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -11332,6 +11544,9 @@
 		"dbfId": 546,
 		"flavor": "\"What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?\" - The Art of Warrior, Chapter 9",
 		"id": "EX1_410",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Shield Slam",
 		"playRequirements": {
 			"REQ_MINION_TARGET": 0,
@@ -11470,6 +11685,9 @@
 		"flavor": "This guy gets crazy strong at family reunions.",
 		"health": 2,
 		"id": "EX1_509",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Murloc Tidecaller",
 		"race": "MURLOC",
 		"rarity": "RARE",
@@ -11507,6 +11725,9 @@
 		"flavor": "Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything.  Even Brussels sprouts.",
 		"health": 2,
 		"id": "EX1_531",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Scavenging Hyena",
 		"race": "BEAST",
 		"rarity": "COMMON",
@@ -11561,6 +11782,9 @@
 		"durability": 2,
 		"flavor": "First Lesson: Put the pointy end in the other guy.",
 		"id": "EX1_536",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Eaglehorn Bow",
 		"rarity": "RARE",
 		"referencedTags": [
@@ -11737,6 +11961,9 @@
 		"flavor": "Nat Pagle, Azeroth's premier fisherman!  He invented the Auto-Angler 3000, the Extendo-Pole 3000, and the Lure-o-matic 2099 (still in testing).",
 		"health": 4,
 		"id": "EX1_557",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Nat Pagle",
 		"rarity": "LEGENDARY",
 		"set": "EXPERT1",
@@ -11774,6 +12001,9 @@
 		"flavor": "Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor.  This was a big step up from being Grand Magus of Jelly Donuts.",
 		"health": 7,
 		"id": "EX1_559",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Archmage Antonidas",
 		"rarity": "LEGENDARY",
 		"set": "EXPERT1",
@@ -11985,6 +12215,9 @@
 		"flavor": "Ysera rules the Emerald Dream.  Which is some kind of green-mirror-version of the real world, or something?",
 		"health": 12,
 		"id": "EX1_572",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Ysera",
 		"race": "DRAGON",
 		"rarity": "LEGENDARY",
@@ -12025,6 +12258,9 @@
 		"flavor": "It is said that some shaman can say \"Floatin' totem\" 10 times, fast.",
 		"health": 3,
 		"id": "EX1_575",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mana Tide Totem",
 		"race": "TOTEM",
 		"rarity": "RARE",
@@ -12061,6 +12297,9 @@
 		"dbfId": 481,
 		"flavor": "It is true that some druids are savage, but others still enjoy a quiet moment and a spot of tea.",
 		"id": "EX1_578",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Savagery",
 		"playRequirements": {
 			"REQ_MINION_TARGET": 0,
@@ -12288,6 +12527,9 @@
 		"flavor": "She may be an evil cult master, but she still calls her parents once a week.",
 		"health": 2,
 		"id": "EX1_595",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Cult Master",
 		"rarity": "COMMON",
 		"set": "EXPERT1",
@@ -12322,6 +12564,9 @@
 		"flavor": "She would enjoy the job a lot more if she just could get the imps to QUIT BITING HER.",
 		"health": 5,
 		"id": "EX1_597",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Imp Master",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -12363,6 +12608,9 @@
 		"flavor": "He used to work as an accountant before he tried his hand at Berserkering.",
 		"health": 4,
 		"id": "EX1_604",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Frothing Berserker",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -12526,6 +12774,9 @@
 		"flavor": "Illidan's brother, Malfurion, imprisoned him beneath Hyjal for 10,000 years.  Stormrages are not good at letting go of grudges.",
 		"health": 5,
 		"id": "EX1_614",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Illidan Stormrage",
 		"race": "DEMON",
 		"rarity": "LEGENDARY",
@@ -12807,7 +13058,8 @@
 		"howToEarnGolden": "Crafting unlocked in Frostwyrm Lair, in the Naxxramas adventure.",
 		"id": "FP1_005",
 		"mechanics": [
-			"STEALTH"
+			"STEALTH",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Shade of Naxxramas",
 		"rarity": "EPIC",
@@ -12960,6 +13212,9 @@
 		"howToEarn": "Unlocked in Frostwyrm Lair, in the Naxxramas adventure.",
 		"howToEarnGolden": "Crafting unlocked in Frostwyrm Lair, in the Naxxramas adventure.",
 		"id": "FP1_013",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Kel'Thuzad",
 		"rarity": "LEGENDARY",
 		"set": "NAXX",
@@ -13251,6 +13506,9 @@
 		"howToEarn": "Unlocked in The Plague Quarter, in the Naxxramas adventure.",
 		"howToEarnGolden": "Crafting unlocked in The Plague Quarter, in the Naxxramas adventure.",
 		"id": "FP1_027",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Stoneskin Gargoyle",
 		"rarity": "COMMON",
 		"set": "NAXX",
@@ -13269,6 +13527,9 @@
 		"howToEarn": "Unlocked in The Construct Quarter, in the Naxxramas adventure.",
 		"howToEarnGolden": "Crafting unlocked in The Construct Quarter, in the Naxxramas adventure.",
 		"id": "FP1_028",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Undertaker",
 		"rarity": "COMMON",
 		"referencedTags": [
@@ -13356,6 +13617,9 @@
 		"flavor": "\"I'm sorry, son.  We had to send Old Howler off\u2026to a farm\u2026to play\u2026\"",
 		"health": 3,
 		"id": "GIL_113",
+		"mechanics": [
+			"RUSH"
+		],
 		"name": "Rabid Worgen",
 		"rarity": "COMMON",
 		"set": "GILNEAS",
@@ -13395,6 +13659,9 @@
 		"flavor": "Does anyone want to play dead!?",
 		"health": 6,
 		"id": "GIL_117",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Worgen Abomination",
 		"rarity": "EPIC",
 		"set": "GILNEAS",
@@ -13610,7 +13877,8 @@
 		"health": 3,
 		"id": "GIL_143",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"RUSH"
 		],
 		"name": "Vicious Scalehide",
 		"race": "BEAST",
@@ -13627,6 +13895,9 @@
 		"dbfId": 46713,
 		"flavor": "Weirdly, the bells stop ringing after 5.",
 		"id": "GIL_145",
+		"mechanics": [
+			"ECHO"
+		],
 		"name": "Sound the Bells!",
 		"playRequirements": {
 			"REQ_MINION_TARGET": 0,
@@ -13666,7 +13937,8 @@
 		"health": 8,
 		"id": "GIL_152",
 		"mechanics": [
-			"CANT_ATTACK"
+			"CANT_ATTACK",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Blackhowl Gunspire",
 		"rarity": "LEGENDARY",
@@ -13685,7 +13957,8 @@
 		"health": 3,
 		"id": "GIL_155",
 		"mechanics": [
-			"ENRAGED"
+			"ENRAGED",
+			"RUSH"
 		],
 		"name": "Redband Wasp",
 		"race": "BEAST",
@@ -13727,6 +14000,7 @@
 		"name": "Druid of the Scythe",
 		"rarity": "COMMON",
 		"referencedTags": [
+			"RUSH",
 			"TAUNT"
 		],
 		"set": "GILNEAS",
@@ -13743,6 +14017,9 @@
 		"flavor": "Everywhelp, get in here!",
 		"health": 9,
 		"id": "GIL_190",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Nightscale Matriarch",
 		"race": "DRAGON",
 		"rarity": "RARE",
@@ -13833,7 +14110,8 @@
 		"health": 8,
 		"id": "GIL_202",
 		"mechanics": [
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"RUSH"
 		],
 		"name": "Gilnean Royal Guard",
 		"rarity": "RARE",
@@ -13866,6 +14144,7 @@
 		"health": 4,
 		"id": "GIL_207",
 		"mechanics": [
+			"ECHO",
 			"TAUNT"
 		],
 		"name": "Phantom Militia",
@@ -13940,6 +14219,9 @@
 		"dbfId": 46897,
 		"flavor": "50% off. Every shot must go!",
 		"id": "GIL_506",
+		"mechanics": [
+			"ECHO"
+		],
 		"name": "Cheap Shot",
 		"playRequirements": {
 			"REQ_MINION_TARGET": 0,
@@ -14000,8 +14282,14 @@
 		"flavor": "One little Mistwraith sitting in a tree. M-I-S-T-I-N-G.",
 		"health": 5,
 		"id": "GIL_510",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mistwraith",
 		"rarity": "RARE",
+		"referencedTags": [
+			"ECHO"
+		],
 		"set": "GILNEAS",
 		"text": "Whenever you play an <b>Echo</b>\u00a0card, gain +1/+1.",
 		"type": "MINION"
@@ -14036,7 +14324,8 @@
 		"health": 2,
 		"id": "GIL_515",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"RUSH"
 		],
 		"name": "Ratcatcher",
 		"playRequirements": {
@@ -14120,6 +14409,9 @@
 		"flavor": "Same turn delivery - guaranteed!",
 		"health": 6,
 		"id": "GIL_528",
+		"mechanics": [
+			"RUSH"
+		],
 		"name": "Swift Messenger",
 		"rarity": "COMMON",
 		"set": "GILNEAS",
@@ -14201,6 +14493,9 @@
 		"flavor": "Hard time making ends meet? Hate the League of Explorers? Get a job henching!",
 		"health": 3,
 		"id": "GIL_534",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Hench-Clan Thug",
 		"rarity": "COMMON",
 		"set": "GILNEAS",
@@ -14215,6 +14510,9 @@
 		"dbfId": 47016,
 		"flavor": "Oh look. A Gorehowl.",
 		"id": "GIL_537",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Deadly Arsenal",
 		"rarity": "EPIC",
 		"set": "GILNEAS",
@@ -14229,6 +14527,9 @@
 		"dbfId": 47033,
 		"flavor": "Wanted on three counts of gnomish possession.",
 		"id": "GIL_543",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Dark Possession",
 		"playRequirements": {
 			"REQ_FRIENDLY_TARGET": 0,
@@ -14253,7 +14554,8 @@
 		"health": 4,
 		"id": "GIL_545",
 		"mechanics": [
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"RUSH"
 		],
 		"name": "Ghostly Charger",
 		"race": "BEAST",
@@ -14273,6 +14575,10 @@
 		"flavor": "You either die a villain, or live long enough to see yourself become the hero.",
 		"health": 4,
 		"id": "GIL_547",
+		"mechanics": [
+			"RUSH",
+			"TRIGGER_VISUAL"
+		],
 		"name": "Darius Crowley",
 		"rarity": "LEGENDARY",
 		"set": "GILNEAS",
@@ -14338,7 +14644,8 @@
 		"health": 3,
 		"id": "GIL_557",
 		"mechanics": [
-			"DEATHRATTLE"
+			"DEATHRATTLE",
+			"RUSH"
 		],
 		"name": "Cursed Castaway",
 		"race": "PIRATE",
@@ -14400,7 +14707,8 @@
 		"health": 3,
 		"id": "GIL_562",
 		"mechanics": [
-			"POISONOUS"
+			"POISONOUS",
+			"RUSH"
 		],
 		"name": "Vilebrood Skitterer",
 		"race": "BEAST",
@@ -14485,7 +14793,8 @@
 		"rarity": "LEGENDARY",
 		"referencedTags": [
 			"DEATHRATTLE",
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"RUSH"
 		],
 		"set": "GILNEAS",
 		"text": "[x]<b>Battlecry:</b> Draw a <b>Rush</b>,\n<b>Lifesteal</b>, and <b>Deathrattle</b>\ncard from your deck.",
@@ -14506,6 +14815,9 @@
 		],
 		"name": "Town Crier",
 		"rarity": "EPIC",
+		"referencedTags": [
+			"RUSH"
+		],
 		"set": "GILNEAS",
 		"text": "<b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck.",
 		"type": "MINION"
@@ -14597,6 +14909,9 @@
 		"durability": 4,
 		"flavor": "Silver\u2019s malleability limits its utility as an edged weapon. On the other hand... SHINY!",
 		"id": "GIL_596",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Silver Sword",
 		"rarity": "RARE",
 		"set": "GILNEAS",
@@ -14632,6 +14947,7 @@
 		"flavor": "The material components for this spell are wool socks and a rug.",
 		"id": "GIL_600",
 		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER",
 			"OVERLOAD"
 		],
 		"name": "Zap!",
@@ -14661,6 +14977,9 @@
 		"name": "Scaleworm",
 		"race": "BEAST",
 		"rarity": "RARE",
+		"referencedTags": [
+			"RUSH"
+		],
 		"set": "GILNEAS",
 		"text": "<b>Battlecry:</b> If you're holding a Dragon, gain +1 Attack and <b>Rush</b>.",
 		"type": "MINION"
@@ -14675,6 +14994,9 @@
 		"flavor": "Not all spiders are born poisonous. That's where he comes in.",
 		"health": 4,
 		"id": "GIL_607",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Toxmonger",
 		"rarity": "EPIC",
 		"referencedTags": [
@@ -14694,6 +15016,10 @@
 		"flavor": "\"Shh! You're going to start a howl!\"",
 		"health": 1,
 		"id": "GIL_607t",
+		"mechanics": [
+			"ECHO",
+			"RUSH"
+		],
 		"name": "Hunting Mastiff",
 		"race": "BEAST",
 		"rarity": "COMMON",
@@ -14782,6 +15108,9 @@
 		],
 		"name": "Glinda Crowskin",
 		"rarity": "LEGENDARY",
+		"referencedTags": [
+			"ECHO"
+		],
 		"set": "GILNEAS",
 		"text": "Minions in your hand have\u00a0<b>Echo</b>.",
 		"type": "MINION"
@@ -14797,6 +15126,9 @@
 		"flavor": "The children were puzzled by the scratches covering the insides of their toy-boxes.",
 		"health": 6,
 		"id": "GIL_620",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Dollmaster Dorian",
 		"rarity": "LEGENDARY",
 		"set": "GILNEAS",
@@ -14937,6 +15269,9 @@
 		"flavor": "Experts worry that curios are a gateway to face-collecting.",
 		"health": 4,
 		"id": "GIL_640",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Curio Collector",
 		"rarity": "RARE",
 		"set": "GILNEAS",
@@ -15018,6 +15353,9 @@
 		],
 		"name": "Houndmaster Shaw",
 		"rarity": "LEGENDARY",
+		"referencedTags": [
+			"RUSH"
+		],
 		"set": "GILNEAS",
 		"text": "Your other minions have\n<b>Rush</b>.",
 		"type": "MINION"
@@ -15037,6 +15375,9 @@
 		],
 		"name": "Woodcutter's Axe",
 		"rarity": "COMMON",
+		"referencedTags": [
+			"RUSH"
+		],
 		"set": "GILNEAS",
 		"text": "<b>Deathrattle:</b> Give +2/+1 to a random friendly <b>Rush</b> minion.",
 		"type": "WEAPON"
@@ -15049,6 +15390,9 @@
 		"dbfId": 47515,
 		"flavor": "\"Left, right, left, right, there's none of the enemy left\u2026 Right?\"",
 		"id": "GIL_654",
+		"mechanics": [
+			"ECHO"
+		],
 		"name": "Warpath",
 		"playRequirements": {
 			"REQ_MINION_TARGET": 0
@@ -15068,6 +15412,9 @@
 		"flavor": "Tree puns arboring.",
 		"health": 7,
 		"id": "GIL_655",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Festeroot Hulk",
 		"rarity": "RARE",
 		"set": "GILNEAS",
@@ -15142,6 +15489,9 @@
 		"flavor": "As birds of ill omen, these crows often summon Doomsayers.",
 		"health": 3,
 		"id": "GIL_664",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Vex Crow",
 		"race": "BEAST",
 		"rarity": "COMMON",
@@ -15157,6 +15507,9 @@
 		"dbfId": 47555,
 		"flavor": "Warlocks refer to this as a \"balance change.\"",
 		"id": "GIL_665",
+		"mechanics": [
+			"ECHO"
+		],
 		"name": "Curse of Weakness",
 		"rarity": "RARE",
 		"set": "GILNEAS",
@@ -15214,7 +15567,8 @@
 		"health": 2,
 		"id": "GIL_677",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"ECHO"
 		],
 		"name": "Face Collector",
 		"rarity": "LEGENDARY",
@@ -15232,6 +15586,9 @@
 		"flavor": "BoOooOogrglgrlgrlooOoOoo!",
 		"health": 2,
 		"id": "GIL_678",
+		"mechanics": [
+			"ECHO"
+		],
 		"name": "Ghost Light Angler",
 		"race": "MURLOC",
 		"rarity": "COMMON",
@@ -15249,6 +15606,9 @@
 		"flavor": "How do you make a walnut laugh? Crack it up!",
 		"health": 3,
 		"id": "GIL_680",
+		"mechanics": [
+			"ECHO"
+		],
 		"name": "Walnut Sprite",
 		"rarity": "COMMON",
 		"set": "GILNEAS",
@@ -15283,7 +15643,8 @@
 		"health": 8,
 		"id": "GIL_682",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"RUSH"
 		],
 		"name": "Muck Hunter",
 		"rarity": "EPIC",
@@ -15363,6 +15724,9 @@
 		"flavor": "His worgen children call him Archmage AROO-OO-OO-OO-gal.",
 		"health": 2,
 		"id": "GIL_691",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Archmage Arugal",
 		"rarity": "LEGENDARY",
 		"set": "GILNEAS",
@@ -15380,6 +15744,10 @@
 		"flavor": "Ever since Sylvanas killed his son, he's dreamed of getting\u2026 even.",
 		"health": 5,
 		"id": "GIL_692",
+		"mechanics": [
+			"COLLECTIONMANAGER_FILTER_MANA_EVEN",
+			"START_OF_GAME"
+		],
 		"name": "Genn Greymane",
 		"rarity": "LEGENDARY",
 		"set": "GILNEAS",
@@ -15396,6 +15764,9 @@
 		"flavor": "Like a sloppy joe for vampires.",
 		"health": 6,
 		"id": "GIL_693",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Blood Witch",
 		"rarity": "RARE",
 		"set": "GILNEAS",
@@ -15430,6 +15801,9 @@
 		"dbfId": 47799,
 		"flavor": "He'll pick anyone's pocket, except a gnome's. He'd never stoop so low.",
 		"id": "GIL_696",
+		"mechanics": [
+			"ECHO"
+		],
 		"name": "Pick Pocket",
 		"rarity": "RARE",
 		"set": "GILNEAS",
@@ -15488,7 +15862,8 @@
 		"health": 5,
 		"id": "GIL_803",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"RUSH"
 		],
 		"name": "Militia Commander",
 		"rarity": "RARE",
@@ -15525,6 +15900,9 @@
 		"flavor": "The tricky part is getting them to HOLD their shape.",
 		"health": 8,
 		"id": "GIL_807",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Bogshaper",
 		"race": "ELEMENTAL",
 		"rarity": "EPIC",
@@ -15628,7 +16006,8 @@
 		"health": 3,
 		"id": "GIL_817",
 		"mechanics": [
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"TRIGGER_VISUAL"
 		],
 		"name": "The Glass Knight",
 		"rarity": "LEGENDARY",
@@ -15646,6 +16025,9 @@
 		"flavor": "Eye of murloc, ear of bat, foot of Fordring, fur of cat\u2026",
 		"health": 4,
 		"id": "GIL_819",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Witch's Cauldron",
 		"rarity": "EPIC",
 		"set": "GILNEAS",
@@ -15703,6 +16085,10 @@
 		"flavor": "In her defense, it did look like a cookie.",
 		"health": 8,
 		"id": "GIL_826",
+		"mechanics": [
+			"COLLECTIONMANAGER_FILTER_MANA_ODD",
+			"START_OF_GAME"
+		],
 		"name": "Baku the Mooneater",
 		"race": "BEAST",
 		"rarity": "LEGENDARY",
@@ -15759,6 +16145,9 @@
 		"flavor": "\"Just sign this waiver, and we'll be on our way.\"",
 		"health": 6,
 		"id": "GIL_833",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Forest Guide",
 		"rarity": "RARE",
 		"set": "GILNEAS",
@@ -15776,7 +16165,8 @@
 		"health": 1,
 		"id": "GIL_835",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"ECHO"
 		],
 		"name": "Squashling",
 		"playRequirements": {
@@ -16060,6 +16450,9 @@
 		"dbfId": 1938,
 		"flavor": "This is what happens when you allow goblins to be priests.",
 		"id": "GVG_008",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Lightbomb",
 		"rarity": "EPIC",
 		"set": "GVG",
@@ -16218,6 +16611,9 @@
 		"flavor": "So reaver. Much fel. Wow.",
 		"health": 8,
 		"id": "GVG_016",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Fel Reaver",
 		"race": "MECHANICAL",
 		"rarity": "EPIC",
@@ -16287,6 +16683,9 @@
 		"flavor": "The box says, \"New and improved, with 200% more fel!\"",
 		"health": 5,
 		"id": "GVG_020",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Fel Cannon",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
@@ -16387,6 +16786,9 @@
 		"flavor": "When pirates say there is no \"Eye\" in \"team,\" they are very literal about it.",
 		"health": 1,
 		"id": "GVG_025",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "One-eyed Cheat",
 		"race": "PIRATE",
 		"rarity": "RARE",
@@ -16424,6 +16826,9 @@
 		"flavor": "Mechs like learning from him because he really speaks their language.\n0110100001101001",
 		"health": 2,
 		"id": "GVG_027",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Iron Sensei",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
@@ -16442,6 +16847,9 @@
 		"flavor": "Gallywix believes in supply and demand. He supplies the beatings and demands you pay up!",
 		"health": 8,
 		"id": "GVG_028",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Trade Prince Gallywix",
 		"rarity": "LEGENDARY",
 		"set": "GVG",
@@ -16554,9 +16962,15 @@
 		"flavor": "Crushes buildings with his BEAR hands.",
 		"health": 6,
 		"id": "GVG_034",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mech-Bear-Cat",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
+		"referencedTags": [
+			"SPARE_PART"
+		],
 		"set": "GVG",
 		"text": "Whenever this minion takes damage, add a <b>Spare Part</b> card to your hand.",
 		"type": "MINION"
@@ -16652,6 +17066,9 @@
 		"flavor": "You can usually find these at the totemist's market on Saturdays.",
 		"health": 3,
 		"id": "GVG_039",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Vitality Totem",
 		"race": "TOTEM",
 		"rarity": "RARE",
@@ -16670,7 +17087,8 @@
 		"health": 5,
 		"id": "GVG_040",
 		"mechanics": [
-			"OVERLOAD"
+			"OVERLOAD",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Siltfin Spiritwalker",
 		"overload": 1,
@@ -16853,6 +17271,9 @@
 		"flavor": "The Sen'jin High football team is The Gahz'rillas.",
 		"health": 9,
 		"id": "GVG_049",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Gahz'rilla",
 		"race": "BEAST",
 		"rarity": "LEGENDARY",
@@ -16944,6 +17365,9 @@
 		"durability": 2,
 		"flavor": "Simple, misguided, and incredibly dangerous. You know, like most things ogre.",
 		"id": "GVG_054",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Ogre Warmaul",
 		"rarity": "COMMON",
 		"set": "GVG",
@@ -17097,6 +17521,9 @@
 		"flavor": "Guardians used to be built out of Adamantium, but production got moved to Gadgetzan and Cobalt was cheap.",
 		"health": 3,
 		"id": "GVG_062",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Cobalt Guardian",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
@@ -17151,7 +17578,8 @@
 		"health": 4,
 		"id": "GVG_065",
 		"mechanics": [
-			"FORGETFUL"
+			"FORGETFUL",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Ogre Brute",
 		"rarity": "COMMON",
@@ -17172,6 +17600,7 @@
 		"mechanics": [
 			"FORGETFUL",
 			"OVERLOAD",
+			"TRIGGER_VISUAL",
 			"WINDFURY"
 		],
 		"name": "Dunemaul Shaman",
@@ -17191,6 +17620,9 @@
 		"flavor": "The only thing worse than smelling troggs is listening to their poetry.",
 		"health": 3,
 		"id": "GVG_067",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Stonesplinter Trogg",
 		"rarity": "COMMON",
 		"set": "GVG",
@@ -17207,6 +17639,9 @@
 		"flavor": "He's burly because he does CrossFit.",
 		"health": 5,
 		"id": "GVG_068",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Burly Rockjaw Trogg",
 		"rarity": "COMMON",
 		"set": "GVG",
@@ -17275,6 +17710,9 @@
 		"flavor": "Punching is its primary function. Also, its secondary function.",
 		"health": 3,
 		"id": "GVG_072",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Shadowboxer",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
@@ -17332,6 +17770,9 @@
 		"flavor": "If you hear someone yell, \"Cannonball!\" you're about to get wet. Or crushed.",
 		"health": 3,
 		"id": "GVG_075",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Ship's Cannon",
 		"rarity": "COMMON",
 		"set": "GVG",
@@ -17368,6 +17809,9 @@
 		"flavor": "The Dark Animus is evil and mysterious and huge and unable to write sentences that utilize proper grammar.",
 		"health": 9,
 		"id": "GVG_077",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Anima Golem",
 		"race": "MECHANICAL",
 		"rarity": "EPIC",
@@ -17400,6 +17844,9 @@
 		"name": "Mechanical Yeti",
 		"race": "MECHANICAL",
 		"rarity": "COMMON",
+		"referencedTags": [
+			"SPARE_PART"
+		],
 		"set": "GVG",
 		"text": "<b>Deathrattle:</b> Give each player a <b>Spare Part.</b>",
 		"type": "MINION"
@@ -17487,6 +17934,9 @@
 		"name": "Clockwork Gnome",
 		"race": "MECHANICAL",
 		"rarity": "COMMON",
+		"referencedTags": [
+			"SPARE_PART"
+		],
 		"set": "GVG",
 		"text": "<b>Deathrattle:</b> Add a <b>Spare Part</b> card to your hand.",
 		"type": "MINION"
@@ -17569,6 +18019,9 @@
 		"flavor": "Wintergrasp Keep's only weakness!",
 		"health": 5,
 		"id": "GVG_086",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Siege Engine",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
@@ -17604,7 +18057,8 @@
 		"id": "GVG_088",
 		"mechanics": [
 			"FORGETFUL",
-			"STEALTH"
+			"STEALTH",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Ogre Ninja",
 		"rarity": "RARE",
@@ -17622,6 +18076,9 @@
 		"flavor": "\"LUMOS!\" is not what they yell. What do you think this is, Hogwarts?",
 		"health": 4,
 		"id": "GVG_089",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Illuminator",
 		"rarity": "RARE",
 		"referencedTags": [
@@ -17721,6 +18178,9 @@
 		"flavor": "This robot is a lean, mean, butlerin' machine.",
 		"health": 4,
 		"id": "GVG_094",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Jeeves",
 		"race": "MECHANICAL",
 		"rarity": "RARE",
@@ -17839,6 +18299,9 @@
 		"flavor": "\"Evil Eye Watcher of Doom\" was the original name, but marketing felt it was a bit too aggressive.",
 		"health": 4,
 		"id": "GVG_100",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Floating Watcher",
 		"race": "DEMON",
 		"rarity": "COMMON",
@@ -17892,6 +18355,9 @@
 		],
 		"name": "Tinkertown Technician",
 		"rarity": "COMMON",
+		"referencedTags": [
+			"SPARE_PART"
+		],
 		"set": "GVG",
 		"text": "<b>Battlecry:</b> If you have a Mech, gain +1/+1 and add a <b>Spare Part</b> to your hand.",
 		"type": "MINION"
@@ -17906,6 +18372,9 @@
 		"flavor": "This card is the real thing.",
 		"health": 2,
 		"id": "GVG_103",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Micro Machine",
 		"race": "MECHANICAL",
 		"rarity": "COMMON",
@@ -17923,6 +18392,9 @@
 		"flavor": "Hobgoblins are meeting next week to discuss union benefits.  First on the list: dental plan.",
 		"health": 3,
 		"id": "GVG_104",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Hobgoblin",
 		"rarity": "EPIC",
 		"set": "GVG",
@@ -17959,6 +18431,9 @@
 		"flavor": "One bot's junk is another bot's AWESOME UPGRADE!",
 		"health": 5,
 		"id": "GVG_106",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Junkbot",
 		"race": "MECHANICAL",
 		"rarity": "EPIC",
@@ -18068,6 +18543,9 @@
 		"flavor": "Do not push the big red button!",
 		"health": 5,
 		"id": "GVG_111",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mimiron's Head",
 		"race": "MECHANICAL",
 		"rarity": "LEGENDARY",
@@ -18086,6 +18564,9 @@
 		"flavor": "Mogor helped reopen the Dark Portal once. You know you're in trouble when you have to rely on an ogre.",
 		"health": 6,
 		"id": "GVG_112",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mogor the Ogre",
 		"rarity": "LEGENDARY",
 		"set": "GVG",
@@ -18157,6 +18638,9 @@
 		],
 		"name": "Toshley",
 		"rarity": "LEGENDARY",
+		"referencedTags": [
+			"SPARE_PART"
+		],
 		"set": "GVG",
 		"text": "<b>Battlecry and Deathrattle:</b> Add a <b>Spare Part</b> card to your hand.",
 		"type": "MINION"
@@ -18172,6 +18656,9 @@
 		"flavor": "He was obsessed with explosives until he discovered knitting. Now he yells, \u201cSWEATERS! MORE SWEATERS!\u201d",
 		"health": 7,
 		"id": "GVG_116",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mekgineer Thermaplugg",
 		"race": "MECHANICAL",
 		"rarity": "LEGENDARY",
@@ -18190,6 +18677,9 @@
 		"flavor": "Gazlowe was voted \"Most Likely to Explode\" in high school.",
 		"health": 6,
 		"id": "GVG_117",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Gazlowe",
 		"rarity": "LEGENDARY",
 		"set": "GVG",
@@ -18207,6 +18697,9 @@
 		"flavor": "He keeps earthinating the countryside despite attempts to stop him.",
 		"health": 6,
 		"id": "GVG_118",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Troggzor the Earthinator",
 		"rarity": "LEGENDARY",
 		"set": "GVG",
@@ -18700,6 +19193,9 @@
 		"flavor": "You get a sword! And you get a sword! Everybody gets a sword!",
 		"health": 5,
 		"id": "ICC_029",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Cobalt Scalebane",
 		"race": "DRAGON",
 		"rarity": "COMMON",
@@ -18717,6 +19213,9 @@
 		"flavor": "Honestly, he howls during the day, too.",
 		"health": 4,
 		"id": "ICC_031",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Night Howler",
 		"rarity": "COMMON",
 		"set": "ICECROWN",
@@ -19138,6 +19637,9 @@
 		"durability": 4,
 		"flavor": "These sorrows cut deep.",
 		"id": "ICC_071",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Light's Sorrow",
 		"rarity": "EPIC",
 		"referencedTags": [
@@ -19157,6 +19659,9 @@
 		"flavor": "He's deathspicable.",
 		"health": 5,
 		"id": "ICC_075",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Despicable Dreadlord",
 		"race": "DEMON",
 		"rarity": "RARE",
@@ -19471,6 +19976,9 @@
 		"flavor": "I think one of the necromancers got a little carried away.",
 		"health": 4,
 		"id": "ICC_097",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Grave Shambler",
 		"race": "ELEMENTAL",
 		"rarity": "COMMON",
@@ -19567,6 +20075,9 @@
 		"flavor": "Among his more notable inventions: A tentacle-groomer, a plague that would wipe out all life on Azeroth, and a fidget spinner.",
 		"health": 4,
 		"id": "ICC_204",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Professor Putricide",
 		"rarity": "LEGENDARY",
 		"referencedTags": [
@@ -19619,6 +20130,9 @@
 		"flavor": "When you're at the bottom, there's nowhere to ascend, but up.",
 		"health": 2,
 		"id": "ICC_210",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Shadow Ascendant",
 		"rarity": "COMMON",
 		"set": "ICECROWN",
@@ -19716,6 +20230,9 @@
 		"flavor": "The problem is that he carries those cards in his mouth.",
 		"health": 6,
 		"id": "ICC_218",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Howlfiend",
 		"race": "DEMON",
 		"rarity": "COMMON",
@@ -19812,6 +20329,9 @@
 		"durability": 3,
 		"flavor": "A great way to end a conversation.",
 		"id": "ICC_236",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Ice Breaker",
 		"rarity": "RARE",
 		"referencedTags": [
@@ -19831,6 +20351,9 @@
 		"flavor": "He'd be a lot easier to animate if he would just stand still.",
 		"health": 3,
 		"id": "ICC_238",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Animated Berserker",
 		"rarity": "COMMON",
 		"set": "ICECROWN",
@@ -19910,6 +20433,9 @@
 		"flavor": "\"Did I ever tell you the story of when I single-handedly took down a 29/29 C'thun?\" - Reno Jackson",
 		"health": 9,
 		"id": "ICC_245",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Blackguard",
 		"rarity": "EPIC",
 		"set": "ICECROWN",
@@ -19996,6 +20522,9 @@
 		"flavor": "Most disturbing is how Moorabi covers all those frozen minions with flavored syrup.",
 		"health": 4,
 		"id": "ICC_289",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Moorabi",
 		"rarity": "LEGENDARY",
 		"referencedTags": [
@@ -20027,7 +20556,8 @@
 		"health": 8,
 		"id": "ICC_314",
 		"mechanics": [
-			"TAUNT"
+			"TAUNT",
+			"TRIGGER_VISUAL"
 		],
 		"name": "The Lich King",
 		"rarity": "LEGENDARY",
@@ -20046,6 +20576,9 @@
 		"flavor": "Daddy! I think I made a Legendary!",
 		"health": 6,
 		"id": "ICC_405",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Rotface",
 		"rarity": "LEGENDARY",
 		"set": "ICECROWN",
@@ -20081,6 +20614,9 @@
 		"flavor": "My Ghoul friend is back and you're gonna be in trouble.",
 		"health": 4,
 		"id": "ICC_408",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Val'kyr Soulclaimer",
 		"rarity": "RARE",
 		"set": "ICECROWN",
@@ -20207,6 +20743,9 @@
 		"flavor": "If you ever tried to plow permafrost, you\u2019d be wretched, too.",
 		"health": 1,
 		"id": "ICC_468",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Wretched Tiller",
 		"rarity": "COMMON",
 		"set": "ICECROWN",
@@ -20425,7 +20964,8 @@
 		"health": 6,
 		"id": "ICC_808",
 		"mechanics": [
-			"TAUNT"
+			"TAUNT",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Crypt Lord",
 		"rarity": "COMMON",
@@ -21043,7 +21583,8 @@
 		"health": 7,
 		"id": "ICC_858",
 		"mechanics": [
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Bolvar, Fireblood",
 		"rarity": "LEGENDARY",
@@ -21061,6 +21602,9 @@
 		"flavor": "An eye for an eye, and a ghoul for a ghoul.",
 		"health": 3,
 		"id": "ICC_900",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Necrotic Geist",
 		"rarity": "COMMON",
 		"set": "ICECROWN",
@@ -21199,6 +21743,9 @@
 		"flavor": "\"What are your strengths?\" the interviewer asked. \"Well,\" she replied, \"I'm really good at keening.\"",
 		"health": 5,
 		"id": "ICC_911",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Keening Banshee",
 		"rarity": "RARE",
 		"set": "ICECROWN",
@@ -21415,6 +21962,9 @@
 		"howToEarn": "Unlocked in the Opera, in One Night in Karazhan.",
 		"howToEarnGolden": "Crafting unlocked in the Opera, in One Night in Karazhan.",
 		"id": "KAR_021",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Wicked Witchdoctor",
 		"rarity": "COMMON",
 		"set": "KARA",
@@ -21566,6 +22116,9 @@
 		"howToEarn": "Unlocked in the Parlor, in One Night in Karazhan.",
 		"howToEarnGolden": "Crafting unlocked in the Parlor, in One Night in Karazhan.",
 		"id": "KAR_035",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Priest of the Feast",
 		"rarity": "COMMON",
 		"set": "KARA",
@@ -21584,6 +22137,9 @@
 		"howToEarn": "Unlocked in the Parlor, in One Night in Karazhan.",
 		"howToEarnGolden": "Crafting unlocked in the Parlor, in One Night in Karazhan.",
 		"id": "KAR_036",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Arcane Anomaly",
 		"race": "ELEMENTAL",
 		"rarity": "COMMON",
@@ -21657,7 +22213,8 @@
 		"howToEarnGolden": "Crafting unlocked in the Parlor, in One Night in Karazhan.",
 		"id": "KAR_044",
 		"mechanics": [
-			"STEALTH"
+			"STEALTH",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Moroes",
 		"rarity": "LEGENDARY",
@@ -21915,6 +22472,9 @@
 		"howToEarn": "Unlocked in the Spire, in One Night in Karazhan.",
 		"howToEarnGolden": "Crafting unlocked in the Spire, in One Night in Karazhan.",
 		"id": "KAR_089",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Malchezaar's Imp",
 		"race": "DEMON",
 		"rarity": "COMMON",
@@ -22022,6 +22582,9 @@
 		"howToEarn": "Unlocked in the Spire, in One Night in Karazhan.",
 		"howToEarnGolden": "Crafting unlocked in the Spire, in One Night in Karazhan.",
 		"id": "KAR_096",
+		"mechanics": [
+			"START_OF_GAME"
+		],
 		"name": "Prince Malchezaar",
 		"race": "DEMON",
 		"rarity": "LEGENDARY",
@@ -22316,6 +22879,9 @@
 		"howToEarn": "Unlocked in the Temple of Orsis, in the League of Explorers adventure.",
 		"howToEarnGolden": "Crafting unlocked in the Temple of Orsis, in the League of Explorers adventure.",
 		"id": "LOE_009",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Obsidian Destroyer",
 		"rarity": "COMMON",
 		"referencedTags": [
@@ -22402,6 +22968,9 @@
 		"howToEarn": "Unlocked in the Temple of Orsis, in the League of Explorers adventure.",
 		"howToEarnGolden": "Crafting unlocked in the Temple of Orsis, in the League of Explorers adventure.",
 		"id": "LOE_016",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Rumbling Elemental",
 		"race": "ELEMENTAL",
 		"rarity": "COMMON",
@@ -22450,6 +23019,9 @@
 		"howToEarn": "Unlocked in Uldaman, in the League of Explorers adventure.",
 		"howToEarnGolden": "Crafting unlocked in Uldaman, in the League of Explorers adventure.",
 		"id": "LOE_018",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Tunnel Trogg",
 		"rarity": "COMMON",
 		"referencedTags": [
@@ -22786,6 +23358,9 @@
 		"howToEarn": "Unlocked in the Temple of Orsis, in the League of Explorers adventure.",
 		"howToEarnGolden": "Crafting unlocked in the Temple of Orsis, in the League of Explorers adventure.",
 		"id": "LOE_053",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Djinni of Zephyrs",
 		"race": "ELEMENTAL",
 		"rarity": "EPIC",
@@ -22927,6 +23502,9 @@
 		"howToEarn": "Unlocked in the Temple of Orsis, in the League of Explorers adventure.",
 		"howToEarnGolden": "Crafting unlocked in the Temple of Orsis, in the League of Explorers adventure.",
 		"id": "LOE_086",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Summoning Stone",
 		"rarity": "RARE",
 		"set": "LOE",
@@ -23167,6 +23745,9 @@
 		"howToEarn": "Unlocked in the Hall of Explorers, in the League of Explorers adventure.",
 		"howToEarnGolden": "Crafting unlocked in the Hall of Explorers, in the League of Explorers adventure.",
 		"id": "LOE_119",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Animated Armor",
 		"rarity": "RARE",
 		"set": "LOE",
@@ -23340,6 +23921,9 @@
 		"flavor": "What is best in life? To make candle. To keep candle. To hear lamentations of candle-takers.",
 		"health": 4,
 		"id": "LOOT_041",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Kobold Barbarian",
 		"rarity": "RARE",
 		"set": "LOOTAPALOOZA",
@@ -23794,6 +24378,7 @@
 		"flavor": "PHENOMENAL ARCANE POWER\u2026itty bitty living space.",
 		"id": "LOOT_108",
 		"mechanics": [
+			"TRIGGER_VISUAL",
 			"InvisibleDeathrattle"
 		],
 		"name": "Aluneth",
@@ -23960,6 +24545,9 @@
 		"flavor": "This card really breaks out of the mold.",
 		"health": 3,
 		"id": "LOOT_131",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Green Jelly",
 		"rarity": "COMMON",
 		"referencedTags": [
@@ -24003,6 +24591,9 @@
 		"flavor": "Do you want to eat an adventurer?  I want to eat an adventurer!",
 		"health": 4,
 		"id": "LOOT_134",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Toothy Chest",
 		"rarity": "COMMON",
 		"set": "LOOTAPALOOZA",
@@ -24209,6 +24800,9 @@
 		"flavor": "Love like you've never been hurt. Dance like a 1/1 is watching.",
 		"health": 2,
 		"id": "LOOT_165",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Sonya Shadowdancer",
 		"rarity": "LEGENDARY",
 		"set": "LOOTAPALOOZA",
@@ -24262,6 +24856,9 @@
 		"dbfId": 45271,
 		"flavor": "\u201cC\u2019mon Hucklemuck. She\u2019ll never notice if we take just one little coin.\u201d",
 		"id": "LOOT_172",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Dragon's Fury",
 		"rarity": "EPIC",
 		"set": "LOOTAPALOOZA",
@@ -24485,6 +25082,9 @@
 		"flavor": "It's certainly not civilized gibbering.",
 		"health": 1,
 		"id": "LOOT_218",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Feral Gibberer",
 		"rarity": "RARE",
 		"set": "LOOTAPALOOZA",
@@ -24520,6 +25120,9 @@
 		"flavor": "Ethereal armor dissipates in 6 hours which can cause extreme awkwardness for first time buyers.",
 		"health": 2,
 		"id": "LOOT_231",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Arcane Artificer",
 		"race": "ELEMENTAL",
 		"rarity": "COMMON",
@@ -24764,6 +25367,9 @@
 		"flavor": "We suggest crafting Ixlid; he'll grow on you. Literally.",
 		"health": 4,
 		"id": "LOOT_329",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Ixlid, Fungal Lord",
 		"race": "ELEMENTAL",
 		"rarity": "LEGENDARY",
@@ -25062,6 +25668,9 @@
 		"elite": true,
 		"flavor": "Turn that frown into TWO frowns!",
 		"id": "LOOT_380",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Woecleaver",
 		"rarity": "LEGENDARY",
 		"referencedTags": [
@@ -25175,6 +25784,9 @@
 		"flavor": "Auditioning for the next Fungal Idol.",
 		"health": 2,
 		"id": "LOOT_394",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Shrieking Shroom",
 		"rarity": "RARE",
 		"set": "LOOTAPALOOZA",
@@ -25191,6 +25803,9 @@
 		"flavor": "Wish #1: funnel cakes. Wish #2: funnel cakes. Wish #3: FUNNEL CAKES.",
 		"health": 4,
 		"id": "LOOT_398",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Benevolent Djinn",
 		"race": "ELEMENTAL",
 		"rarity": "COMMON",
@@ -25272,6 +25887,9 @@
 		"flavor": "Qualifications: Found pointy hat.",
 		"health": 7,
 		"id": "LOOT_414",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Grand Archivist",
 		"rarity": "EPIC",
 		"set": "LOOTAPALOOZA",
@@ -25325,6 +25943,7 @@
 		"flavor": "Don't trust the skull.",
 		"id": "LOOT_420",
 		"mechanics": [
+			"TRIGGER_VISUAL",
 			"InvisibleDeathrattle"
 		],
 		"name": "Skull of the Man'ari",
@@ -25404,6 +26023,9 @@
 		"elite": true,
 		"flavor": "When asked what the runes do, the tauren smith smiled: \"A little of this, a little of that...\"",
 		"id": "LOOT_506",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "The Runespear",
 		"rarity": "LEGENDARY",
 		"referencedTags": [
@@ -25528,6 +26150,9 @@
 		"flavor": "Once crafted a gauntlet out of earwax and pure ambition.",
 		"health": 8,
 		"id": "LOOT_519",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Geosculptor Yip",
 		"rarity": "LEGENDARY",
 		"set": "LOOTAPALOOZA",
@@ -25766,6 +26391,9 @@
 		"flavor": "Which came first?  The dragon or the dragonhatcher?",
 		"health": 4,
 		"id": "LOOT_540",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Dragonhatcher",
 		"rarity": "EPIC",
 		"referencedTags": [
@@ -25973,6 +26601,9 @@
 		"flavor": "These wyrms feed on arcane energies, and while they are generally considered a nuisance rather than a real threat, you really shouldn't leave them alone with a bucket of mana.",
 		"health": 3,
 		"id": "NEW1_012",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Mana Wyrm",
 		"rarity": "COMMON",
 		"set": "EXPERT1",
@@ -26085,6 +26716,9 @@
 		"flavor": "Ambitious Knife Jugglers sometimes graduate to Bomb Jugglers.    They never last long enough to make it onto a card though.",
 		"health": 2,
 		"id": "NEW1_019",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Knife Juggler",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -26101,6 +26735,9 @@
 		"flavor": "BOOM BABY BOOM!  BAD IS GOOD!  DOWN WITH GOVERNMENT!",
 		"health": 2,
 		"id": "NEW1_020",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Wild Pyromancer",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -26117,6 +26754,9 @@
 		"flavor": "He's almost been right so many times. He was <i>sure</i> it was coming during the Cataclysm.",
 		"health": 7,
 		"id": "NEW1_021",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Doomsayer",
 		"rarity": "EPIC",
 		"set": "EXPERT1",
@@ -26215,6 +26855,9 @@
 		"flavor": "If you don't pay attention, you may be turned into a pig.  And then you get your name on the board.",
 		"health": 5,
 		"id": "NEW1_026",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Violet Teacher",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -26330,6 +26973,9 @@
 		"flavor": "He's currently trying to craft a \"flail-axe\", but all the other swordsmiths say it can't be done.",
 		"health": 3,
 		"id": "NEW1_037",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Master Swordsmith",
 		"rarity": "RARE",
 		"set": "EXPERT1",
@@ -26347,6 +26993,9 @@
 		"flavor": "He's Gruul \"the Dragonkiller\".  He just wanted to cuddle them\u2026 he never meant to\u2026",
 		"health": 7,
 		"id": "NEW1_038",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Gruul",
 		"rarity": "LEGENDARY",
 		"set": "EXPERT1",
@@ -26364,6 +27013,9 @@
 		"flavor": "Hogger is super powerful. If you kill him, it's because he <i>let</i> you.",
 		"health": 4,
 		"id": "NEW1_040",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Hogger",
 		"rarity": "LEGENDARY",
 		"referencedTags": [
@@ -26572,6 +27224,9 @@
 		"flavor": "When he's working out, he binds all that rage back into a ponytail.",
 		"health": 10,
 		"id": "OG_042",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Y'Shaarj, Rage Unbound",
 		"rarity": "LEGENDARY",
 		"set": "OG",
@@ -26839,6 +27494,9 @@
 		"flavor": "He prefers that you refer to him by his nickname: 'Frostwaker.'",
 		"health": 4,
 		"id": "OG_085",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Demented Frostcaller",
 		"rarity": "RARE",
 		"referencedTags": [
@@ -26856,6 +27514,9 @@
 		"dbfId": 38413,
 		"flavor": "WARNING: This flame is not to be used unless you are a licensed acolyte of the Old Gods.",
 		"id": "OG_086",
+		"mechanics": [
+			"AFFECTED_BY_SPELL_POWER"
+		],
 		"name": "Forbidden Flame",
 		"playRequirements": {
 			"REQ_MINION_TARGET": 0,
@@ -27034,6 +27695,9 @@
 		"flavor": "Democracy in action!",
 		"health": 5,
 		"id": "OG_113",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Darkshire Councilman",
 		"rarity": "COMMON",
 		"set": "OG",
@@ -27509,6 +28173,9 @@
 		"flavor": "Add two cups of Blood of the Ancient One to one cup of lemon juice. Add just a dash of sugar and stir. Delicious!",
 		"health": 9,
 		"id": "OG_173",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Blood of The Ancient One",
 		"rarity": "EPIC",
 		"set": "OG",
@@ -27643,6 +28310,9 @@
 		"flavor": "Really feels good about himself and is in a much better place now. But\u2026 he sure does miss piloting those shredders.",
 		"health": 7,
 		"id": "OG_200",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Validated Doomsayer",
 		"rarity": "EPIC",
 		"set": "OG",
@@ -27720,6 +28390,9 @@
 		"flavor": "Hallazeals all your dallazamage.",
 		"health": 6,
 		"id": "OG_209",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Hallazeal the Ascended",
 		"race": "ELEMENTAL",
 		"rarity": "LEGENDARY",
@@ -27874,6 +28547,9 @@
 		"flavor": "What happens when you try and corrupt a corrupted firelord? DOUBLE NEGATIVE, INSECT!",
 		"health": 8,
 		"id": "OG_229",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Ragnaros, Lightlord",
 		"race": "ELEMENTAL",
 		"rarity": "LEGENDARY",
@@ -28083,6 +28759,9 @@
 		"flavor": "I like it because it scales.",
 		"health": 8,
 		"id": "OG_271",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Scaled Nightmare",
 		"race": "DRAGON",
 		"rarity": "EPIC",
@@ -28262,7 +28941,8 @@
 		"health": 4,
 		"id": "OG_286",
 		"mechanics": [
-			"RITUAL"
+			"RITUAL",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Twilight Elder",
 		"rarity": "COMMON",
@@ -28280,6 +28960,9 @@
 		"flavor": "\"honey, can u run down to the store and pick up some 10 cost minions? thx\"",
 		"health": 6,
 		"id": "OG_290",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Ancient Harbinger",
 		"rarity": "EPIC",
 		"set": "OG",
@@ -28384,6 +29067,9 @@
 		"flavor": "Has 20 years of training in classical ballet, but ALLLLLL he ever gets asked to do is boogie.",
 		"health": 7,
 		"id": "OG_300",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "The Boogeymonster",
 		"rarity": "LEGENDARY",
 		"set": "OG",
@@ -28421,7 +29107,8 @@
 		"health": 6,
 		"id": "OG_302",
 		"mechanics": [
-			"RITUAL"
+			"RITUAL",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Usher of Souls",
 		"rarity": "COMMON",
@@ -28441,7 +29128,8 @@
 		"id": "OG_303",
 		"mechanics": [
 			"RITUAL",
-			"SPELLPOWER"
+			"SPELLPOWER",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Cult Sorcerer",
 		"rarity": "RARE",
@@ -28460,6 +29148,9 @@
 		"flavor": "Banned from every all-you-can-eat buffet on Azeroth.",
 		"health": 8,
 		"id": "OG_308",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Giant Sand Worm",
 		"race": "BEAST",
 		"rarity": "EPIC",
@@ -28508,6 +29199,9 @@
 		"flavor": "Turns out divine shields are way cheaper if you buy in bulk.",
 		"health": 3,
 		"id": "OG_310",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Steward of Darkshire",
 		"rarity": "RARE",
 		"referencedTags": [
@@ -28564,6 +29258,9 @@
 		"flavor": "Druids who spend too long in bear form are more susceptible to the whispers of the Old Gods.  Right now they are whispering the lyrics to \"La Bamba\".",
 		"health": 2,
 		"id": "OG_313",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Addled Grizzly",
 		"race": "BEAST",
 		"rarity": "RARE",
@@ -28661,6 +29358,9 @@
 		"flavor": "When C'thun went to sleep, he checked under his bed for Hogger.",
 		"health": 6,
 		"id": "OG_318",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Hogger, Doom of Elwynn",
 		"rarity": "LEGENDARY",
 		"referencedTags": [
@@ -28702,7 +29402,8 @@
 		"id": "OG_321",
 		"mechanics": [
 			"RITUAL",
-			"TAUNT"
+			"TAUNT",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Crazed Worshipper",
 		"rarity": "EPIC",
@@ -28851,7 +29552,8 @@
 		"health": 6,
 		"id": "OG_334",
 		"mechanics": [
-			"RITUAL"
+			"RITUAL",
+			"TRIGGER_VISUAL"
 		],
 		"name": "Hooded Acolyte",
 		"rarity": "COMMON",
@@ -28909,6 +29611,9 @@
 		"flavor": "You can take away his humanity, but you will never take away his fishing pole.",
 		"health": 4,
 		"id": "OG_338",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Nat, the Darkfisher",
 		"rarity": "LEGENDARY",
 		"set": "OG",
@@ -28993,6 +29698,9 @@
 		"flavor": "'Flesheating' is an unfair name.  It's just that there's not really much else for him to eat.",
 		"health": 3,
 		"id": "tt_004",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Flesheating Ghoul",
 		"rarity": "COMMON",
 		"set": "EXPERT1",
@@ -29768,6 +30476,9 @@
 		"flavor": "A youngster who is truly hungry for self-improvement.",
 		"health": 3,
 		"id": "UNG_075",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Vicious Fledgling",
 		"race": "BEAST",
 		"rarity": "RARE",
@@ -29826,6 +30537,9 @@
 		"flavor": "Goes by the online handle \"KoolKrusher99.\"",
 		"health": 8,
 		"id": "UNG_079",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Frozen Crusher",
 		"race": "ELEMENTAL",
 		"rarity": "RARE",
@@ -29954,6 +30668,9 @@
 		"flavor": "It's actually only the middle head that's bitter. The others are sweet and spicy.",
 		"health": 8,
 		"id": "UNG_087",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Bittertide Hydra",
 		"race": "BEAST",
 		"rarity": "EPIC",
@@ -30207,6 +30924,9 @@
 		"flavor": "Emits a sound only murlocs can hear, which is good because it\u2019s REALLY annoying.",
 		"health": 3,
 		"id": "UNG_201",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Primalfin Totem",
 		"race": "TOTEM",
 		"rarity": "RARE",
@@ -30844,6 +31564,9 @@
 		"flavor": "I am the Voraxx.  I speak for the weeds.",
 		"health": 3,
 		"id": "UNG_843",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "The Voraxx",
 		"rarity": "LEGENDARY",
 		"set": "UNGORO",
@@ -31048,6 +31771,9 @@
 		"flavor": "She sees the fate of anyone she meets, but it's always the same: dinosaur attack.",
 		"health": 4,
 		"id": "UNG_900",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Spiritsinger Umbra",
 		"rarity": "LEGENDARY",
 		"referencedTags": [
@@ -31225,6 +31951,9 @@
 		"flavor": "Swamp King Dred, more like Swamp King Dead, amiright?",
 		"health": 9,
 		"id": "UNG_919",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Swamp King Dred",
 		"race": "BEAST",
 		"rarity": "LEGENDARY",
@@ -31578,6 +32307,9 @@
 		"durability": 3,
 		"flavor": "George and Karl!  Thank the Light we found you!",
 		"id": "UNG_950",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Vinecleaver",
 		"rarity": "RARE",
 		"set": "UNGORO",
@@ -31774,6 +32506,9 @@
 		"flavor": "Arise, fair sun, and kill my envious foes. They don't have a legendary as beautiful as you.",
 		"health": 5,
 		"id": "UNG_963",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		],
 		"name": "Lyra the Sunshard",
 		"race": "ELEMENTAL",
 		"rarity": "LEGENDARY",

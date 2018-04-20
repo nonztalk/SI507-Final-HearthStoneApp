@@ -14,6 +14,7 @@ import dash_table_experiments as dt
 app = dash.Dash(__name__)
 server = app.server
 
+# setting styles for app
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
 styles = {
@@ -25,7 +26,7 @@ styles = {
     }
 }
 
-
+# setting data and functions for app
 conn = sqlite3.connect('HeartStone.sqlite')
 query = '''
 SELECT DeckName AS Name, DeckClass AS Class, TotalGames, WinRate AS [Win(%)],
@@ -128,7 +129,7 @@ def cards_images(CardId):
     return card_name, card_set, card_Img, card_ImgGold
 
 
-
+# app layout
 app.layout = html.Div([
     html.Div([
         html.H1('HearthStone Data and Statistics', style = styles['H1'])
@@ -199,25 +200,13 @@ app.layout = html.Div([
     ),
 ])
 
+# Interactions
 # DECKS
 @app.callback(
     Output('DecksTable', 'selected_row_indices'),
     [Input('TotalGameGraph', 'clickData')],
     [State('DecksTable', 'selected_row_indices')])
 def update_selected_row_indices_decks(clickData, selected_row_indices):
-    if clickData:
-        for point in clickData['points']:
-            if point['pointNumber'] in selected_row_indices:
-                selected_row_indices.remove(point['pointNumber'])
-            else:
-                selected_row_indices.append(point['pointNumber'])
-    return selected_row_indices
-
-@app.callback(
-    Output('CardsTable', 'selected_row_indices'),
-    [Input('PopularityGraph', 'clickData')],
-    [State('CardsTable', 'selected_row_indices')])
-def update_selected_row_indices_cards(clickData, selected_row_indices):
     if clickData:
         for point in clickData['points']:
             if point['pointNumber'] in selected_row_indices:
@@ -383,6 +372,19 @@ def update_deck_detail(rows, selected_row_indices):
 
 # Cards
 @app.callback(
+    Output('CardsTable', 'selected_row_indices'),
+    [Input('PopularityGraph', 'clickData')],
+    [State('CardsTable', 'selected_row_indices')])
+def update_selected_row_indices_cards(clickData, selected_row_indices):
+    if clickData:
+        for point in clickData['points']:
+            if point['pointNumber'] in selected_row_indices:
+                selected_row_indices.remove(point['pointNumber'])
+            else:
+                selected_row_indices.append(point['pointNumber'])
+    return selected_row_indices
+
+@app.callback(
     Output('PopularityGraph', 'figure'),
     [Input('CardsTable', 'rows'),
      Input('CardsTable', 'selected_row_indices')])
@@ -521,22 +523,27 @@ def update_figure_Popularity(rows, selected_row_indices):
 )
 def update_cards_image(rows, selected_row_indices):
     content = []
+    already_shown = []
     if selected_row_indices is []:
         return content
     else:
         for i in selected_row_indices:
             UId = rows[i]['UId']
-            card_name, card_set, card_Img, card_ImgGold = cards_images(UId)
-            content.append(
-                html.Div(children = card_name + " from " + card_set)
-            )
-            content.append(
-                html.Div([
-                    html.Img(src = card_Img),
-                    html.Img(src = card_ImgGold)
-                ], style = {'columnCounts': 2})
-            )
-            content.append(html.Br())
+            if UId in already_shown:
+                continue
+            else:
+                card_name, card_set, card_Img, card_ImgGold = cards_images(UId)
+                content.append(
+                    html.Div(children = card_name + " from " + card_set)
+                )
+                content.append(
+                    html.Div([
+                        html.Img(src = card_Img),
+                        html.Img(src = card_ImgGold)
+                    ], style = {'columnCounts': 2})
+                )
+                content.append(html.Br())
+                already_shown.append(UId)
         return content
 
 if __name__ == '__main__':
